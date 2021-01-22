@@ -1,6 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
+  console.log('Receievd request');
   res.end('Hello World\n');
 });
 
